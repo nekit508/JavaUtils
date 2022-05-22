@@ -11,6 +11,10 @@ public class Seq<T>{
     protected T temp1;
     protected T[] temp2;
 
+    public int getSize(){
+        return listSize;
+    }
+
     public String toString(){
         String string = "[";
         for(T elem: items){
