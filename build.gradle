@@ -1,8 +1,5 @@
 apply plugin: "java"
 
-targetCompatibility = 8
-sourceCompatibility = JavaVersion.VERSION_16
-
 ext {
 
 }
