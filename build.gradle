@@ -3,6 +3,13 @@ apply plugin: "java"
 ext {
     jarName = "JavaUtils"
     jarPath = "C:\\Users\\Никита\\Desktop"
+
+    vers = "v3.3"
+}
+
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
 }
 
 wrapper {
@@ -10,7 +17,7 @@ wrapper {
 }
 
 jar {
-    archiveFileName = "${jarPath}\\${jarName}.jar"
+    archiveFileName = "${jarPath}\\${jarName}-${vers}.jar"
 }
 
 dependencies {
