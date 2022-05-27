@@ -17,7 +17,7 @@ wrapper {
 }
 
 jar {
-    archiveFileName = "${jarPath}\\${jarName}-${vers}.jar"
+    //archiveFileName = "${jarPath}\\${jarName}-${vers}.jar"
 }
 
 dependencies {
