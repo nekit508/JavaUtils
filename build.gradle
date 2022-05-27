@@ -1,10 +1,7 @@
 apply plugin: "java"
 
 ext {
-    jarName = "JavaUtils"
-    jarPath = "C:\\Users\\Никита\\Desktop"
 
-    vers = "v3.3"
 }
 
 repositories {
@@ -17,7 +14,7 @@ wrapper {
 }
 
 jar {
-    //archiveFileName = "${jarPath}\\${jarName}-${vers}.jar"
+
 }
 
 dependencies {
