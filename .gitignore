@@ -28,5 +28,8 @@ hs_err_pid*
 # Ignore Gradle build output directory
 build
 
-# Ignore idea fise
+# Ignore idea files
 .idea
+
+# User only file
+gradle.properties
