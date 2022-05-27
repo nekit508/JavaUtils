@@ -1,0 +1,18 @@
+apply plugin: "java"
+
+ext {
+    jarName = "JavaUtils"
+    jarPath = "C:\\Users\\Никита\\Desktop"
+}
+
+wrapper {
+    gradleVersion = '7.4.2'
+}
+
+jar {
+    archiveFileName = "${jarPath}\\${jarName}.jar"
+}
+
+dependencies {
+
+}
