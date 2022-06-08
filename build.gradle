@@ -1,7 +1,7 @@
 apply plugin: "java"
 
 ext {
-
+    vers = "v3.0"
 }
 
 wrapper {
@@ -9,7 +9,7 @@ wrapper {
 }
 
 jar {
-
+    archiveFileName = "out\\javaUtils${vers}"
 }
 
 dependencies {
