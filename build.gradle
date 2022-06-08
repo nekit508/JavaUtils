@@ -1,13 +1,7 @@
 apply plugin: "java"
-apply plugin: 'maven-publish'
 
 ext {
 
-}
-
-repositories {
-    mavenCentral()
-    maven { url "https://jitpack.io" }
 }
 
 wrapper {
@@ -18,6 +12,11 @@ jar {
 
 }
 
-dependencies {
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
 
+dependencies {
+    implementation 'com.github.jitpack:gradle-simple:1.0'
 }
