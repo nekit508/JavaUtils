@@ -1,4 +1,5 @@
 apply plugin: "java"
+apply plugin: "maven-publish"
 
 ext {
 
@@ -17,5 +18,9 @@ repositories {
 }
 
 dependencies {
+
+}
+
+publishToMavenLocal {
 
 }
