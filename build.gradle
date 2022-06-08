@@ -1,5 +1,4 @@
 apply plugin: "java"
-apply plugin: "maven-publish"
 
 ext {
 
@@ -13,14 +12,6 @@ jar {
 
 }
 
-repositories {
-
-}
-
 dependencies {
-
-}
-
-publishToMavenLocal {
 
 }
