@@ -3,7 +3,7 @@ apply plugin: "java"
 ext {
     n = "javaUtils"
     v = "v3.0"
-    e = ".jar"
+    e = "jar"
 }
 
 wrapper {
